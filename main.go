@@ -2,13 +2,21 @@ package main
 
 import (
 	"fmt"
-	"ALterra/hitung"
+	"Alterra/hitung"
+	"Alterra/minus"
 )
 
 func main() {
-	fmt.Println("Belajar UIUX di Alterra Academy MBKM MSIB Batch 3")
-	fmt.Println("fitur1 point 4")
+	fmt.Println("Saya vinka Annisa")
+	fmt.Println("fiturA point 4")
 
 	hasilTambah := hitung.Tambah(9, 9)
 	fmt.Println(hasilTambah)
+
+	fmt.Println("featureB point 5")
+	hasilKali := hitung.Kali(9, 9)
+	fmt.Println(hasilKali)
+
+	hasilKurang := minus.Kurang(9, 9)
+	fmt.Println(hasilKurang)
 }
